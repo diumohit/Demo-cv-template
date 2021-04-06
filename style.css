@@ -1,0 +1,144 @@
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+
+    background-color: wheat;
+}
+
+.container {
+    max-width: 1000px;
+    background-color: rgb(196, 219, 228);
+    padding: 20px;
+    margin: 0 auto;
+    height: 1330px;
+
+}
+
+
+.profile-image {
+
+    width: 100px;
+    height: 120px;
+    border: 3px solid black;
+    border-radius: 50%;
+    float: left;
+    margin-left: 40px;
+}
+
+
+.bio {
+
+    float: left;
+    padding: 25px;
+
+}
+
+.contact {
+
+    float: right;
+    padding: 25px;
+}
+
+.contact a {
+
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: green;
+
+}
+
+.contact a:hover {
+
+
+    background-color: tomato;
+}
+
+.div-clear {
+    clear: both;
+}
+
+hr {
+
+    border: solid black 2px;
+    margin: 20px auto;
+    max-width: 100%;
+    border-bottom: none;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+    color: green;
+
+}
+
+#personal-section {}
+
+.content {
+    font-size: 18px;
+
+}
+
+.leftcontent {
+    width: 30%;
+    float: left;
+}
+
+.rightcontent {
+    width: 70%;
+    float: left;
+
+}
+
+.common-hr {
+
+    border: 1px solid black;
+    margin: 30px auto;
+    width: 100%;
+    margin-bottom: none;
+
+}
+
+.left {
+    width: 50%;
+    float: left;
+
+
+}
+
+.right {
+    width: 50%;
+    float: left;
+}
+
+.footerlink {
+
+    text-align: center;
+    padding: 25px;
+    background-color: black;
+    font-size: 20px;
+}
+
+.footerlink a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.footerlink p {
+
+    color: white;
+    padding: 5x;
+    margin-top: 10px;
+
+}
